@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.appsbymonil.jpp.Splash">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="@mipmap/ju"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/i1"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="  Welcome to "
+        android:textColor="#ff0000"
+        android:textSize="45dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JECRC"
+        android:layout_below="@+id/t1"
+        android:id="@+id/t2"
+        android:textColor="#ff0000"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parent Portal"
+        android:layout_below="@+id/t2"
+        android:id="@+id/t3"
+        android:textColor="#ff0000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+
+
+
+</RelativeLayout>
